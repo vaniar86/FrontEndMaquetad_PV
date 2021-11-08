@@ -68,4 +68,25 @@
     padding-bottom: 4rem;
     background-color: #474b4e;
   }
+  .title{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .btnCard{
+    align-items: flex-end;
+  }
+  .box img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .box img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
 
